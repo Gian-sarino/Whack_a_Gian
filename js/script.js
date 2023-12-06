@@ -7,11 +7,11 @@ $(document).ready(function () {
   const playArea = $('#playArea');
 
   const soundEffects1 = [
-    new Audio('../sounds/clap 1.mp3'),
-    new Audio('../sounds/clap 2.mp3'),
-    new Audio('../sounds/clap 3.mp3'),
-    new Audio('../sounds/clap 4.mp3'),
-    new Audio('../sounds/clap 5.mp3'),
+    new Audio('../sounds/clap1.mp3'),
+    new Audio('../sounds/clap2.mp3'),
+    new Audio('../sounds/clap3.mp3'),
+    new Audio('../sounds/clap4.mp3'),
+    new Audio('../sounds/clap5.mp3'),
   ];
 
   const soundEffects2 = [
