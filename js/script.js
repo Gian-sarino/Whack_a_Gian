@@ -87,11 +87,11 @@ $(document).ready(function () {
 
   target.on('click', function () {
     // Change target image to 'hit.png' for a split second
-    target.css('background-image', 'url("../imgs/hit.png")');
+    target.css('background-image', 'url("imgs/hit.png")');
     setTimeout(() => {
       // Move the target and reset the image to the original after a delay
       moveTarget();
-      target.css('background-image', 'url("../imgs/face.png")');
+      target.css('background-image', 'url("imgs/face.png")');
     }, 500); // Adjust the delay as needed
 
     // Play a random sound from both arrays
