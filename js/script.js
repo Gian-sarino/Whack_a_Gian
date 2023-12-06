@@ -7,18 +7,18 @@ $(document).ready(function () {
   const playArea = $('#playArea');
 
   const soundEffects1 = [
-    new Audio('../sounds/clap1.mp3'),
-    new Audio('../sounds/clap2.mp3'),
-    new Audio('../sounds/clap3.mp3'),
-    new Audio('../sounds/clap4.mp3'),
-    new Audio('../sounds/clap5.mp3'),
+    new Audio('sounds/clap1.mp3'),
+    new Audio('sounds/clap2.mp3'),
+    new Audio('sounds/clap3.mp3'),
+    new Audio('sounds/clap4.mp3'),
+    new Audio('sounds/clap5.mp3'),
   ];
 
   const soundEffects2 = [
-    new Audio('../sounds/No.mp3'),
-    new Audio('../sounds/Ow.mp3'),
-    new Audio('../sounds/Stop.mp3'),
-    new Audio('../sounds/Stawp4.mp3'),
+    new Audio('sounds/No.mp3'),
+    new Audio('sounds/Ow.mp3'),
+    new Audio('sounds/Stop.mp3'),
+    new Audio('sounds/Stawp4.mp3'),
   ];
 
   let score = 0;
